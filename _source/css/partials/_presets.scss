@@ -1,0 +1,34 @@
+@mixin paragrafos($tc: $text, $fw: $fwRegular, $fs: 15px, $lh: auto, $mb: 20px, $mbLOT: 0, $ls: 0) {
+	@include letterSpacing($ls);
+    color: $tc;
+    font-size: $fs;
+    font-weight: $fw;
+    margin-bottom: $mb;
+    line-height: $lh;
+    //text-transform: uppercase;
+    &:last-of-type {
+        margin-bottom: $mbLOT;
+    }
+    a {
+        color: $tc;
+        font-size: $fs;
+        font-weight: $fw;
+        line-height: $lh;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    strong {
+        font-weight: bold;
+        color: $tc;
+        font-size: $fs;
+        line-height: $lh;
+    }
+    @media screen and (max-width: 430px) {
+        font-size: $fs - 2;
+        a, strong {
+            font-size: $fs - 2;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+// Layout Colors
+$primaryLight: #bcee6b;
+$primary: #a1d64b;
+$primaryDark: #8fc13d;
+
+$secondaryLight: #525252;
+$secondary: #2B2B2B;
+$secondaryDark: #1C1C1C;
+
+$white: #fff;
+$white2: #f8f7f5;
+$white3: #F1F0EE;
+
+$mutedGray: #ededed;
+$lightGray: #e7e7e7;
+$mediumGray: #c0c0c0;
+$baseGray: #a09d9d;
+$darkGray: #4c4c4c;
+
+$defaultRadius: 5px;
+
+$feedbackSuccess: #1ca33d;
+$feedbackLoad: #eee;
+$feedbackError: #f05555;
+
+$whatsappPrimary: #25d366;
+$whatsappSecondary: #1eb456;
+
+// Sizes
+$containerWidth: 1310px;
+$containerBigWidth: 1440px;
+$maxRowWidth: 2560px;
+
+// media folders
+$media_assets : "../../media/img/assets/";
+$media_icons : "../../media/img/icons/";
+$media_content : "../../media/img/content/";
+//example: background: url(#{$media_assets}image.png);
+
+// text
+$text: #808080;
+$placeholderText: lighten($text, 15%);
+
+// fonts
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../../media/type/BebasNeueBold.woff2') format('woff2'),
+	url('../../media/type/BebasNeueBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../../media/type/BebasNeueLight.woff2') format('woff2'),
+	url('../../media/type/BebasNeueLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../../media/type/BebasNeueRegular.woff2') format('woff2'),
+	url('../../media/type/BebasNeueRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../../media/type/ProximaNova-Regular.woff2') format('woff2'),
+	url('../../media/type/ProximaNova-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../../media/type/ProximaNova-Bold.woff2') format('woff2'),
+	url('../../media/type/ProximaNova-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../../media/type/ProximaNova-Extrabld.woff2') format('woff2'),
+	url('../../media/type/ProximaNova-Extrabld.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+$fontFamily__bebas: 'Bebas Neue', 'Roboto', 'Arial', 'Calibri', sans-serif;
+$fontFamily__default: 'Roboto', 'Arial', 'Calibri', sans-serif;
+$fwLight: 300; 
+$fwRegular: 400;
+$fwMedium: 500;
+$fwBold: 700;
+$fwBlack: 900;
